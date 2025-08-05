@@ -2,12 +2,12 @@ h1 {text-align: center;
 font-family:'Times New Roman', Times, serif;}
     body {font-family:monospace;}
     * {box-sizing: border-box;
-    color: rgb(92, 29, 151);}
+    color: rgb(221, 219, 219);}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid cornsilk;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -36,17 +36,22 @@ input[type=submit]:hover {
 body {background-image: url("video-from-rawpixel-id-17604399-sd.mp4");
 background-repeat: no-repeat;
 background-size: 100%;
+color: #ffffff;
 }
 .flex-container {background-color: #060953;
   color: #000000;
 border: 500px;
   border-radius: 5px;
-border-color: blueviolet;
+border-color: rgb(255, 255, 255);
 text-align: center;}
 nav {text-align: center;}
-.flex-container2 {background-color: #ccc;
+.flex-container2 {
+  color: white;
+  opacity:100% ;
   border-radius: 5px;
-border-color: blueviolet;
+border-color: rgb(246, 246, 246);
 text-align: center;}
-h3 {color: blueviolet;
+h3 {color: rgb(255, 255, 255);
 text-align: center;}
+img {border: 2px solid;
+border-radius: 100px;}
